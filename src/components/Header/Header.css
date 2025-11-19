@@ -1,0 +1,55 @@
+header {
+  height: 200px;
+  background: linear-gradient(96deg, rgba(0, 37, 55, 1) 0%, rgba(0, 71, 107, 1) 100%);
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+
+  /* background-color: aqua; */
+
+
+  max-width: 1440px;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* background-color: blueviolet; */
+
+  width: 80%;
+  height: 100%;
+}
+
+
+.seta {
+  width: 40px;
+  width: 60px;
+  cursor: pointer;
+  color: white;
+
+  margin-right: 15px;
+}
+
+
+.logo {
+  height: 60px;
+
+}
+
+
+img {
+  height: 200px;
+}
