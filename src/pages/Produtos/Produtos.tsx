@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { getJoias } from '../../Services/joiasService'
 import type { Joias } from '../../types/Joias'
 import CardProduto from '../../components/CardProduto/CardProduto';
+import Header from '../../components/Header/Header';
 
 export default function Produtos() {
 
@@ -25,6 +26,8 @@ export default function Produtos() {
 
 
   return (
+    <>
+    <Header/>
     <main>
 
       <img className="Ariana" src={Ariana_Grande} alt="" />
@@ -46,5 +49,6 @@ export default function Produtos() {
 
       </section>
     </main>
+    </>
   )
 }

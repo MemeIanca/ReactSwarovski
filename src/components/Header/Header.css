@@ -1,55 +1,150 @@
 header {
-  height: 200px;
-  background: linear-gradient(96deg, rgba(0, 37, 55, 1) 0%, rgba(0, 71, 107, 1) 100%);
-}
-
-body {
-  background-color: #F5F5F5;
+    justify-items: center;
+    height: 200px;
+    background: linear-gradient(96deg, rgba(0, 37, 55, 1) 0%, rgba(0, 71, 107, 1) 100%);
 }
 
 
-.container {
-  display: flex;
-  align-items: center;
+.container_cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  /* background-color: aqua; */
+    /* background-color: aqua; */
 
 
-  max-width: 1440px;
-  height: 100%;
-  width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.conteudo_cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: blueviolet; */
+
+    width: 25%;
+    height: 100%;
+
+    position: absolute;
+    left: 0
+}
+
+/* HEADER */
+
+
+header {
+    justify-items: center;
+    height: 200px;
+    background: linear-gradient(96deg, rgba(0, 37, 55, 1) 0%, rgba(0, 71, 107, 1) 100%);
+}
+
+
+
+
+
+.container_cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: aqua; */
+
+
+    max-width: 1440px;
+    height: 100%;
+    width: 100%;
 
 }
 
 
-.conteudo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 
-  /* background-color: blueviolet; */
 
-  width: 80%;
-  height: 100%;
+.menu_hamburguer {
+    width: 60px;
+    cursor: pointer;
+    color: white;
+
+    margin-left: 15px;
 }
 
 
-.seta {
-  width: 40px;
-  width: 60px;
-  cursor: pointer;
-  color: white;
-
-  margin-right: 15px;
-}
 
 
 .logo {
-  height: 60px;
+    height: 45px;
+    cursor: pointer;
+    justify-self: center;
+    margin: 1rem;
+}
+
+.container_cabeçalho img {
+    height: 160px;
 
 }
 
 
-img {
-  height: 200px;
+/* ACESSIVEL */
+
+.acessivel {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    height: 100px;
 }
+
+@media screen and (max-width:770px) {
+
+    /* HEADER MEDIA */
+
+    header {
+        height: 130px;
+    }
+
+    header .logo {
+        height: 30px;
+    }
+
+    .container_cabeçalho img {
+        height: 120px;
+    }
+
+   .menu_hamburguer {
+        width: 40px;
+
+    }
+
+
+    @media screen and (max-width:500px) {
+
+    /* HEADER MEDIA */
+
+    header .logo {
+        height: 20px;
+    }
+
+    .container_cabeçalho img {
+        height: 80px;
+    }
+
+    img {
+        height: 150px;
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+    .container_lista {
+        border-radius: 30px;
+        width: 90%;
+        padding: 0 15px;
+        margin-bottom: 60px;
+    }
+  }

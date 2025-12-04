@@ -41,7 +41,7 @@
 
 
 img {
-  height: 200px;
+  height: 100px;
 }
 
 
@@ -76,7 +76,7 @@ img {
 
 .card_produto {
   width: 380px;
-  height: 450px;
+  height: 330px;
   background: #fff;
   border-radius: 12px;
   padding: 1rem;
