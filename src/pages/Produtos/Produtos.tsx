@@ -5,6 +5,7 @@ import { getJoias } from '../../Services/joiasService'
 import type { Joias } from '../../types/Joias'
 import CardProduto from '../../components/CardProduto/CardProduto';
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 export default function Produtos() {
 
@@ -49,6 +50,7 @@ export default function Produtos() {
 
       </section>
     </main>
+      <Footer />
     </>
   )
 }
